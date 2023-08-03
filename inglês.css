@@ -1,0 +1,97 @@
+header {
+    background: rgb(55,55,55)
+}
+nav {
+position: absolute;
+top: 120px;
+right: 0;
+}
+nav li{
+display: inline;
+margin: 0 0 0 15px;
+}
+nav a:active {
+ font-size: 25px;
+ color: blue;
+ text-decoration: underline;
+}
+nav a {
+text-transform: uppercase;
+color: #000000;
+font-weight: bold;
+font-size: 20px;
+text-decoration: none;
+}
+#imgheader {
+padding: 0 0 0 25px
+}
+#a {
+padding: 0 20px 0 0
+}
+h1 {
+font-size: 20px;
+text-align: center;
+}
+table {
+padding: 0 0 20px 15px;
+text-align: center;
+}
+thead {
+background: black;
+color: #FFFFFF;
+text-align: center;
+}
+td, th {
+border: 2px solid #000000;
+padding: 15px 20px
+}
+footer {
+background: url(bg.jpg);
+color: #FFFFFF;
+text-align: center;
+}
+#imgfooter {
+padding: 20px 0 0 0
+}
+#pfooter {
+padding: 0 0 15px 0
+}
+.substantivo {
+width: 940px;
+margin: 0 auto 0 auto;
+}
+.substantvo li {
+display: inline-block;
+text-align: lef;
+vertical-align: top;
+width: 30%;
+margin: 0 1.5% 10px 60px;
+padding: 20px 25px;
+box-shadow: border-box;
+border: 2px solid #000000;
+border-radius: 10px;
+}
+form {
+    margin: 20px 0;
+    }
+    
+    form label {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 px;
+    padding: 10px;
+    }
+    
+    form input, textarea {
+    padding: 10px 12px;
+    margin: 10px 0 15px 10px
+    }
+    
+    #btform {
+    width: 40%;
+    text-align: center;
+    background: black;
+    color: white;
+    margin: 20px 0 20px 60px;
+    padding: 10px 15px;
+    }
